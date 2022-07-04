@@ -1,0 +1,297 @@
+name: package_of_the_day
+description: A new Flutter project.
+
+# Copyright (c) 2022, Md. Siam
+# http://mdsiam.xyz/
+#
+# Use of this source code is governed by an MIT-style
+# license that can be found in the LICENSE file or at
+# https://choosealicense.com/licenses/mit/
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # For glowing effect around an avatar
+  avatar_glow: ^2.0.2
+  # For accessing all google fonts
+  google_fonts: ^3.0.1
+  # For fancy pull to refresh
+  liquid_pull_to_refresh: ^3.0.1
+  # For percentage indicator
+  percent_indicator: ^4.2.2
+  # For Cube Swipe
+  flutter_carousel_slider: ^1.0.8
+  # For cute & fun dot indicator
+  smooth_page_indicator: ^1.0.0+2
+  # For awesome icons
+  font_awesome_flutter: ^10.1.0
+  # For pre-built Animations
+  animations: ^2.0.3
+  # For Neon signs
+  neon: ^0.1.0
+  # For Aurora gradient
+  aurora: ^1.0.0
+  # For card swiping effects
+  card_swiper: ^2.0.4
+  # For displaying blur image while loading
+  flutter_blurhash: ^0.7.0
+  # For  rendering SVG image
+  flutter_svg: ^1.1.0
+  # For various custom shapes
+  flutter_custom_clippers: ^2.0.0
+  # For Text-to-speech in flutter
+  flutter_tts: ^3.4.0
+  # For Code highlight
+  flutter_highlight: ^0.7.0
+  # For Drawing charts
+  syncfusion_flutter_charts: ^20.1.58
+  # For displaying alert pop-up
+  rflutter_alert: ^2.0.4
+  # For setting ui for both android & iOS
+  flutter_settings_ui: ^2.0.1
+  # For animated loading indicators
+  flutter_spinkit: ^5.1.0
+  # For playing audio files
+  audioplayers: ^0.20.1
+  # For easy-to-use navigation
+  go_router: ^3.1.1
+  # For making HTTP request
+  http: ^0.13.4
+  # For landing page
+  onboarding: ^3.1.0
+  # For neumorphic UI design
+  flutter_neumorphic: ^3.2.0
+  # For parsing and evaluating mathematical expressions
+  math_expressions: ^2.3.1
+  # For modern neumorphic containers
+  clay_containers: ^0.3.2
+  # For dark mode switch
+  day_night_switcher: ^0.2.0+1
+  # For State-management
+  provider: ^6.0.3
+  # For using Feather Icon pack
+  feather_icons: ^1.2.0
+  # For gradient text
+  simple_gradient_text: ^1.2.3
+  # For picking images from the image library, and taking new pictures with the camera
+  image_picker: ^0.8.5+3
+  # For Convex Bottom Bar
+  convex_bottom_bar: ^3.0.0
+  # For making a cool intro
+  intro_slider: ^3.0.5
+  # For icons
+  icofont_flutter: ^1.4.0
+  # For advanced grid view
+  flutter_staggered_grid_view: ^0.6.1
+  # For shimmer loading effect
+  shimmer: ^2.0.0
+  # For animation
+  lottie: ^1.3.0
+  # For storing platform-specific persistent storage for simple data
+  shared_preferences: ^2.0.15
+  # For automatically resizes text to fit perfectly within its bounds
+  auto_size_text: ^3.0.0
+  # For getting device information
+  device_info_plus: ^3.2.3
+  # For device geolocation
+  geolocator: ^8.2.1
+  # For GlassMorphism UI design
+  glass_kit: ^2.0.1
+  # For launching a URL
+  url_launcher: ^6.1.2
+  ## For loading and displaying html
+  webview_flutter: ^3.0.4
+  # For responsive UI design
+  responsive_sizer: ^3.0.8
+  # For playing video files
+  video_player: ^2.4.2
+  # For responsive design
+  responsive_framework: ^0.2.0
+  # For displaying timeline
+  timelines: ^0.1.0
+  # For playing audio
+  just_audio: ^0.9.24
+  # For audio progress bar
+  audio_video_progress_bar: ^0.10.0
+  # For bottom nav bar
+  persistent_bottom_nav_bar_v2: ^4.2.3
+  # For comparing objects in Dart
+  equatable: ^2.0.3
+  # For web scraping
+  web_scraper: ^0.1.4
+  # For onboarding UI screen
+  introduction_screen: ^3.0.2
+  # For animated text
+  animated_text_kit: ^4.2.2
+  # For horizontal data table
+  horizontal_data_table: ^4.0.0
+  # For confetti animation
+  confetti: ^0.7.0
+  # For playing video
+  chewie: ^1.3.3
+  # For using global ServiceLocator
+  get_it: ^7.2.0
+  # For In-App notification/snackbar
+  overlay_support: ^2.0.1
+  # For discovering network connectivity
+  connectivity_plus: ^2.3.2
+  # Flutter implementation of React hooks
+  flutter_hooks: ^0.18.4
+  # For locating the filesystem
+  path_provider: ^2.0.10
+  # For playing YouTube videos
+  youtube_player_flutter: ^8.1.0
+  # For playing YouTube videos
+  youtube_player_iframe: ^2.3.0
+  # For implementation of slidable list item
+  flutter_slidable: ^1.3.0
+  # For JSON to Dart class generator
+  json_annotation: ^4.5.0
+  # A powerful Http client for Dart
+  dio: ^4.0.6
+  # For saving images and videos in gallery
+  gallery_saver: ^2.3.2
+  # For animated search bar
+  anim_search_bar: ^2.0.2
+  # For using the native file explorer to pick files
+  file_picker: ^4.6.1
+  # For using the native APP to open files
+  open_file: ^3.2.1
+  # For sharing contents from Flutter app
+  share_plus: ^4.0.6
+  # For infinite scrolling
+  infinite_scroll_pagination: ^3.2.0
+  # For animated text
+  marquee: ^2.2.3
+  # For image caching & keeping them in cache directory
+  cached_network_image: ^3.2.1
+  # For managing network cached files
+  flutter_cache_manager: ^3.3.0
+  # For displaying toast messages
+  fluttertoast: ^8.0.9
+  # For cryptographic hashing functions
+  crypto: ^3.0.2
+  # For beautiful & animated bottom navigation
+  bottom_navy_bar: ^6.0.0
+  # For create animated countdown / countup timer
+  slide_countdown: ^0.2.8
+  # For formate date & time
+  date_format: ^2.0.6
+  # For rating bar
+  flutter_rating_bar: ^4.0.1
+  # OTP or pin code inputs
+  pin_code_fields: ^7.4.0
+  # For generating unique id
+  uuid: ^3.0.6
+  # For extending the capabilities of Dart Streams and StreamControllers
+  rxdart: ^0.27.4
+  # For local notifications
+  flutter_local_notifications: ^9.6.1
+  # For getting the local timezone of the os
+  flutter_native_timezone: ^2.0.0
+  # A library for Dart that generates fake data
+  faker: ^2.0.0
+  # For animated dark/night mode switch
+  day_night_switch: ^1.0.3
+  # For designing pixel perfect UI
+  pixel_perfect: ^1.1.1
+  # For animated buttons
+  animated_button: ^0.2.0
+  # For toggle switch
+  toggle_switch: ^2.0.1
+  # For Navigation 2.0
+  routemaster: ^1.0.1
+
+dev_dependencies:
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.1
+  # It provides a concrete way of generating files using Dart code
+  build_runner: ^2.1.11
+  # Dependency of "json_annotation"
+  json_serializable: ^6.2.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/audios/
+    - assets/images/
+    - assets/images/banner/
+    - assets/svg/
+    - assets/images/rflutter_alert/
+    - assets/images/staggered_grid_view/
+    - assets/images/audioplayer/
+    - assets/images/onboarding/
+    - assets/images/intro_slider/
+    - assets/images/parallax_animation/
+    - assets/images/foods/
+    - assets/images/background/
+    - assets/videos/
+    - assets/images/introduction_screen/
+    - assets/images/placeholder/
+    - assets/sounds/
+    - assets/images/pixel_perfect/icons/
+    - assets/images/pixel_perfect/images/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: NeumorphicIcons
+      fonts:
+        - asset: fonts/NeumorphicIcons.ttf
+
+    - family: Canterbury
+      fonts:
+        - asset: fonts/Canterbury.ttf
+
+    - family: HelloStockholm
+      fonts:
+        - asset: fonts/HelloStockholm.otf
+
+    - family: Horizon
+      fonts:
+        - asset: fonts/Horizon.otf
+
+    - family: Bobbers
+      fonts:
+        - asset: fonts/Bobbers.ttf
+
+    - family: Agne
+      fonts:
+        - asset: fonts/Agne.otf
+
+    - family: SFProText
+      fonts:
+        - asset: fonts/SFProText-Regular.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
